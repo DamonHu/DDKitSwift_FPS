@@ -1,0 +1,41 @@
+PODS:
+  - SSZipArchive (2.5.4)
+  - ZXKitCore (2.0.2):
+    - ZXKitCore/core (= 2.0.2)
+  - ZXKitCore/core (2.0.2):
+    - SSZipArchive
+    - ZXKitLogger (~> 4.0.0)
+    - ZXKitUtil
+  - ZXKitFPS (2.0.0):
+    - ZXKitFPS/core (= 2.0.0)
+  - ZXKitFPS/core (2.0.0)
+  - ZXKitLogger (4.0.5):
+    - ZXKitLogger/core (= 4.0.5)
+  - ZXKitLogger/core (4.0.5):
+    - ZXKitUtil (~> 4.0.0)
+  - ZXKitUtil (4.0.0):
+    - ZXKitUtil/core (= 4.0.0)
+  - ZXKitUtil/core (4.0.0)
+
+DEPENDENCIES:
+  - ZXKitCore (~> 2.0.0)
+  - ZXKitFPS (~> 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
+    - ZXKitCore
+    - ZXKitFPS
+    - ZXKitLogger
+    - ZXKitUtil
+
+SPEC CHECKSUMS:
+  SSZipArchive: 285b618a158ebc421039c22db5b77d345c7c03db
+  ZXKitCore: 7a67edfda54439ae7d81bbb40cd990f1c09bad2f
+  ZXKitFPS: 13503e5251d790dc5eafd6fb543d2bad1758f677
+  ZXKitLogger: 22f226509df679728bc8da7a7983d672cc9ccbae
+  ZXKitUtil: 0d23a979cdc7a7f9df0722148a613986ef007288
+
+PODFILE CHECKSUM: 21592169ea1a42211a53ee3050c34b610c6190be
+
+COCOAPODS: 1.11.2

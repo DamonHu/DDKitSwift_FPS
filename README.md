@@ -1,2 +1,3 @@
-# fps-zxkit
-FPS plugin for ZXKit
+# FPS-ZXKit
+
+FPS plugin for `ZXKit`， build by [DamonHu/ZXKitFPS](https://github.com/DamonHu/ZXKitFPS)
