@@ -6,6 +6,6 @@ target 'fps-zxkit' do
   use_frameworks!
 
   # Pods for fps-zxkit
-	pod 'ZXKitCore', '~> 2.0.0'
-	pod 'ZXKitFPS', '~> 2.0.0'
+	pod 'ZXKitCore', '~> 2.0'
+	pod 'ZXKitFPS', '~> 2.0'
 end

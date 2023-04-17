@@ -11,9 +11,13 @@ import ZXKitCore
 
 func UIImageHDBoundle(named: String?) -> UIImage? {
     guard let name = named else { return nil }
-    guard let bundlePath = Bundle(for: ZXKitFPS.self).path(forResource: "fps-zxkit", ofType: "bundle") else { return nil }
+    guard let bundlePath = Bundle(for: FPSZXKit.self).path(forResource: "fps-zxkit", ofType: "bundle") else { return nil }
     let bundle = Bundle(path: bundlePath)
     return UIImage(named: name, in: bundle, compatibleWith: nil)
+}
+
+class FPSZXKit: NSObject {
+    
 }
 
 //ZXKitPlugin
