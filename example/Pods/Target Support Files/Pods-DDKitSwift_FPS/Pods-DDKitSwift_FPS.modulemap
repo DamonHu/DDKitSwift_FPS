@@ -1,0 +1,6 @@
+framework module Pods_DDKitSwift_FPS {
+  umbrella header "Pods-DDKitSwift_FPS-umbrella.h"
+
+  export *
+  module * { export * }
+}

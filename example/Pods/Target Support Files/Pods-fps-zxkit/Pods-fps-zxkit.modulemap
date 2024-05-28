@@ -1,6 +1,0 @@
-framework module Pods_fps_zxkit {
-  umbrella header "Pods-fps-zxkit-umbrella.h"
-
-  export *
-  module * { export * }
-}

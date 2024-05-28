@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-DDKitSwift_FPS/Pods-DDKitSwift_FPS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DDKitFPS/DDKitFPS.framework
+${BUILT_PRODUCTS_DIR}/DDKitSwift/DDKitSwift.framework
+${BUILT_PRODUCTS_DIR}/DDLoggerSwift/DDLoggerSwift.framework
+${BUILT_PRODUCTS_DIR}/DDUtils/DDUtils.framework

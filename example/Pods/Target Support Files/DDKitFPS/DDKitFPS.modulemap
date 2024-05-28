@@ -1,0 +1,6 @@
+framework module DDKitFPS {
+  umbrella header "DDKitFPS-umbrella.h"
+
+  export *
+  module * { export * }
+}
