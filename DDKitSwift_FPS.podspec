@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_FPS'
 s.swift_version = '5.0'
-s.version = '3.0.1'
+s.version = '3.0.2'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.summary = 'FPS plugin for ZXKit. build by fps'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_FPS'
@@ -15,5 +15,5 @@ s.resource_bundles = {
 s.source_files = "pod/*.swift"
 s.dependency 'DDKitSwift/core', '~> 3.0.0'
 s.dependency 'DDKitFPS', '~> 3.0.0'
-s.documentation_url = 'https://blog.hudongdong.com/ios/1169.html'
+s.documentation_url = 'https://github.com/DamonHu/DDKitSwift_FPS'
 end
