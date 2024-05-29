@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        DDKitSwift.regist(plugin: DDKitFPS())
+        DDKitSwift.regist(plugin: DDKitSwift_FPS())
         self._createUI()
     }
 }
