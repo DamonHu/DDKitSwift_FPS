@@ -21,6 +21,10 @@ func UIImageHDBoundle(named: String?) -> UIImage? {
 open class DDKitSwift_FPS: DDKitSwiftPluginProtocol {
     private var fps = DDKitFPS()
     
+    public init() {
+        
+    }
+    
     public var pluginIdentifier: String {
         return "com.ddkit.DDKitSwift_FPS"
     }
