@@ -2,24 +2,24 @@ PODS:
   - DDKitFPS (3.0.0):
     - DDKitFPS/core (= 3.0.0)
   - DDKitFPS/core (3.0.0)
-  - DDKitSwift/core (3.0.0):
-    - DDLoggerSwift (~> 5.0.0)
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDLoggerSwift (5.0.0):
-    - DDLoggerSwift/core (= 5.0.0)
-  - DDLoggerSwift/core (5.0.0):
-    - DDUtils/ui (~> 5.0.0)
-    - DDUtils/utils (~> 5.0.0)
-  - DDUtils/core (5.0.2)
-  - DDUtils/ui (5.0.2):
+  - DDKitSwift/core (3.1.0):
+    - DDLoggerSwift (~> 5)
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDLoggerSwift (5.3.1):
+    - DDLoggerSwift/core (= 5.3.1)
+  - DDLoggerSwift/core (5.3.1):
+    - DDUtils/ui (~> 5)
+    - DDUtils/utils (~> 5)
+  - DDUtils/core (5.0.13)
+  - DDUtils/ui (5.0.13):
     - DDUtils/core
-  - DDUtils/utils (5.0.2):
+  - DDUtils/utils (5.0.13):
     - DDUtils/core
 
 DEPENDENCIES:
-  - DDKitFPS (~> 3.0.0)
-  - DDKitSwift/core (~> 3.0.0)
+  - DDKitFPS (~> 3)
+  - DDKitSwift/core (~> 3)
 
 SPEC REPOS:
   trunk:
@@ -30,10 +30,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   DDKitFPS: 51f4020175f8a45ff3ecbfb7a693fe25b5b714b4
-  DDKitSwift: 3143fa7df258879898f08e16f2b59b1227661541
-  DDLoggerSwift: 3b6e451251ae07a6614d93493b7c4e512e155950
-  DDUtils: 56b14d305b574751a3e5336717a6dfd56dd2c58c
+  DDKitSwift: c8be710db5f53661855a531f8823df5c1013339e
+  DDLoggerSwift: c7c8776b2e56c741ef3c3de8cfaa3eadb2fcf813
+  DDUtils: 9d1dab6514cbe6687348bde7ea0f6f2187b55222
 
-PODFILE CHECKSUM: e5eaa6cfdec2a8b933d3f70a24e5d5db3cc17ad1
+PODFILE CHECKSUM: 8a876a97bcf33d75f2f42e20885dd6b7f7d6478c
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
