@@ -2,7 +2,7 @@ PODS:
   - DDKitFPS (3.0.0):
     - DDKitFPS/core (= 3.0.0)
   - DDKitFPS/core (3.0.0)
-  - DDKitSwift/core (3.1.0):
+  - DDKitSwift/core (4.0.0):
     - DDLoggerSwift (~> 5)
     - DDUtils/ui (~> 5)
     - DDUtils/utils (~> 5)
@@ -18,8 +18,8 @@ PODS:
     - DDUtils/core
 
 DEPENDENCIES:
-  - DDKitFPS (~> 3)
-  - DDKitSwift/core (~> 3)
+  - DDKitFPS
+  - DDKitSwift/core (~> 4)
 
 SPEC REPOS:
   trunk:
@@ -30,10 +30,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   DDKitFPS: 51f4020175f8a45ff3ecbfb7a693fe25b5b714b4
-  DDKitSwift: c8be710db5f53661855a531f8823df5c1013339e
+  DDKitSwift: a598e532242452a1edf78b9cbfa5a9452cdce3d8
   DDLoggerSwift: c7c8776b2e56c741ef3c3de8cfaa3eadb2fcf813
   DDUtils: 9d1dab6514cbe6687348bde7ea0f6f2187b55222
 
-PODFILE CHECKSUM: 8a876a97bcf33d75f2f42e20885dd6b7f7d6478c
+PODFILE CHECKSUM: 7fc812407133a46955ccc753f62f6df4bdb9bb30
 
 COCOAPODS: 1.16.2

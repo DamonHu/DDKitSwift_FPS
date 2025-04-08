@@ -6,6 +6,6 @@ target 'DDKitSwift_FPS' do
   use_frameworks!
 
   # Pods for DDKitSwift_FPS
-	pod 'DDKitSwift/core', '~> 3'
-	pod 'DDKitFPS', '~> 3'
+	pod 'DDKitSwift/core', '~> 4'
+	pod 'DDKitFPS'
 end

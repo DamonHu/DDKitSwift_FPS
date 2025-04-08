@@ -42,7 +42,6 @@ open class DDKitSwift_FPS: DDKitSwiftPluginProtocol {
     }
     
     public func start() {
-        DDKitSwift.hide()
         self.fps.start { (fps) in
             var backgroundColor = UIColor.dd.color(hexValue: 0xaa2b1d)
             if fps >= 55 {
@@ -50,8 +49,8 @@ open class DDKitSwift_FPS: DDKitSwiftPluginProtocol {
             } else if (fps >= 50 && fps < 55) {
                 backgroundColor = UIColor.dd.color(hexValue: 0xf0a500)
             }
-            let config = DDKitSwiftButtonConfig(title: "\(fps)FPS", titleColor: UIColor.dd.color(hexValue: 0xffffff), titleFont: UIFont.systemFont(ofSize: 13, weight: .bold), backgroundColor: backgroundColor)
-            DDKitSwift.updateFloatButton(config: config, plugin: self)
+            let config = DDPluginItemConfig.text(title: NSAttributedString(string: "\(fps)", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13, weight: .bold), .foregroundColor: UIColor.dd.color(hexValue: 0xffffff)]), backgroundColor: backgroundColor)
+            DDKitSwift.updateListItem(plugin: self, config: config)
         }
     }
     
@@ -61,5 +60,6 @@ open class DDKitSwift_FPS: DDKitSwiftPluginProtocol {
     
     public func stop() {
         self.fps.stop()
+        DDKitSwift.updateListItem(plugin: self, config: .default)
     }
 }
