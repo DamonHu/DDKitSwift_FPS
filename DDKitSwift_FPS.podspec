@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'DDKitSwift_FPS'
 s.swift_version = '5.0'
-s.version = '4.0.0'
+s.version = '4.0.1'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.summary = 'FPS plugin for DDKistSwift. build by DDKitFPS'
 s.homepage = 'https://github.com/DamonHu/DDKitSwift_FPS'
